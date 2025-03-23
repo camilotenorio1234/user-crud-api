@@ -61,8 +61,8 @@ user_crud_api/
 
 1. Clone the Repository
 ```sh
-git clone https://github.com/camilotenorio1234/UserCRUDAPI.git
-cd UserCRUDAPI
+git clone https://github.com/camilotenorio1234/user-crud-api.git
+cd user-crud-api
 ```
 
 2. Install Dependencies
@@ -209,8 +209,8 @@ user_crud_api/
 1. Clonar el Repositorio
 
 ```sh
-git clone https://github.com/camilotenorio1234/UserCRUDAPI.git
-cd UserCRUDAPI
+git clone https://github.com/camilotenorio1234/user-crud-api.git
+cd user-crud-api
 ```
 
 2. Crear Entorno Virtual (Opcional pero Recomendado)
