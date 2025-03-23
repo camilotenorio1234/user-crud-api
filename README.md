@@ -109,7 +109,48 @@ Now, access the API at:
 http://127.0.0.1:8000/api/usuarios/
 ```
 
+---
+
+## 📮 API Testing with Postman
+
+To test the API functionality, we recommend using **Postman**.
+
+### ⚠️ Important Note
+
+🛑 Before testing the API, ensure that the database `BD_New_Api_Django` exists in your MySQL server.  
+The API will throw an error if the database is missing before running migrations.
+
+### ✅ Available Endpoints
+
+| Endpoint                    | Method | Description               |
+|-----------------------------|--------|---------------------------|
+| /api/usuarios/              | GET    | Get all users             |
+| /api/usuarios/              | POST   | Create a new user         |
+| /api/usuarios/<cedula>/     | GET    | Get a user by ID          |
+| /api/usuarios/<cedula>/     | PUT    | Update existing user      |
+| /api/usuarios/<cedula>/     | DELETE | Delete a user             |
+
+---
+
+
 </details>
+
+### 🧪 Example POST Body
+
+To create a user, send a POST request to `/api/usuarios/` with the following JSON body:
+
+```json
+{
+  "tipo_documento": "CC",
+  "cedula": 1234567890,
+  "nombres": "Juan",
+  "apellidos": "Pérez",
+  "genero": "Masculino",
+  "correo": "juanperez@example.com",
+  "telefono": "3001234567",
+  "contrasena": "secreta123"
+}
+```
 
 ---
 
@@ -216,6 +257,45 @@ URL Base:
 
 ```sh
 http://127.0.0.1:8000/api/usuarios/
+```
+---
+
+## 📮 Pruebas de la API con Postman
+
+Para probar la funcionalidad de la API, se recomienda usar **Postman**.
+
+### ⚠️ Nota Importante
+
+🛑 Antes de realizar pruebas, asegúrate de que la base de datos `BD_New_Api_Django` ya exista en tu servidor MySQL.  
+La API lanzará errores si la base de datos no existe al momento de ejecutar las migraciones.
+
+### ✅ Endpoints Disponibles
+
+| Endpoint                    | Método | Descripción                  |
+|-----------------------------|--------|------------------------------|
+| /api/usuarios/              | GET    | Obtener todos los usuarios   |
+| /api/usuarios/              | POST   | Crear un nuevo usuario       |
+| /api/usuarios/<cedula>/     | GET    | Obtener un usuario por cédula|
+| /api/usuarios/<cedula>/     | PUT    | Actualizar un usuario        |
+| /api/usuarios/<cedula>/     | DELETE | Eliminar un usuario          |
+
+---
+
+### 🧪 Ejemplo de Cuerpo POST
+
+Para crear un usuario, realiza una solicitud `POST` a `/api/usuarios/` con el siguiente cuerpo JSON:
+
+```json
+{
+  "tipo_documento": "CC",
+  "cedula": 1234567890,
+  "nombres": "Juan",
+  "apellidos": "Pérez",
+  "genero": "Masculino",
+  "correo": "juanperez@example.com",
+  "telefono": "3001234567",
+  "contrasena": "secreta123"
+}
 ```
 
 </details>
