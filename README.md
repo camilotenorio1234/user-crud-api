@@ -132,9 +132,6 @@ The API will throw an error if the database is missing before running migrations
 
 ---
 
-
-</details>
-
 ### 🧪 Example POST Body
 
 To create a user, send a POST request to `/api/usuarios/` with the following JSON body:
@@ -151,6 +148,8 @@ To create a user, send a POST request to `/api/usuarios/` with the following JSO
   "contrasena": "secreta123"
 }
 ```
+
+</details>
 
 ---
 
