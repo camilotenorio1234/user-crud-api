@@ -1,8 +1,8 @@
-# UserCRUDAPI ⚙️📱
+# django-user-management-api ⚙️📱
 
 ## 🌍 Introduction
 
-UserCRUDAPI is a RESTful API built with Django for efficient user management. 
+django-user-management-api is a RESTful API built with Django for efficient user management. 
 It supports full CRUD operations to create, retrieve, update, and delete users, 
 and is backed by a MySQL database. This project serves as a robust foundation for 
 user authentication and administrative features in modern web applications.
@@ -10,7 +10,7 @@ user authentication and administrative features in modern web applications.
 <details>
   <summary>📘 English Documentation</summary>
 
-# UserCRUDAPI ⚙️📱
+# django-user-management-api ⚙️📱
 
 RESTful API for managing users using Django and MySQL.
 
@@ -34,7 +34,7 @@ It uses Django REST Framework and connects to a MySQL database to persist data s
 ## 📁 Project Structure
 
 ```sh
-user_crud_api/
+django-user-management-api/
 ├── manage.py
 ├── user_crud_api/               # Django project root
 │   ├── __init__.py
@@ -155,7 +155,7 @@ To create a user, send a POST request to `/api/usuarios/` with the following JSO
 
 <details> <summary>📙 Documentación en Español</summary>
 
-# UserCRUDAPI ⚙️📱
+# django-user-management-api ⚙️📱
 
 API RESTful para gestión de usuarios construida con Django y MySQL.
 
@@ -180,7 +180,7 @@ Este proyecto backend está desarrollado con Django y Django REST Framework, pro
 ## 📁 Estructura del Proyecto
 
 ```sh
-user_crud_api/
+django-user-management-api/
 ├── manage.py
 ├── user_crud_api/               # Django project root
 │   ├── __init__.py
